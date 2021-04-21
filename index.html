@@ -1,13 +1,5 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-<p>Click the button to get your coordinates.</p>
-
-
-
-<p id="demo" class='location'></p>
-
 <script>
 window.onload = getLocation()
 var x = document.getElementById("demo");
@@ -25,6 +17,14 @@ function showPosition(position) {
   "Longitude: " + position.coords.longitude;
 }
 </script>
+<body>
+
+<p>Click the button to get your coordinates.</p>
+
+
+
+<p id="demo" class='location'></p>
+
 
 </body>
 </html>
